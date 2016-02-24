@@ -40,8 +40,8 @@
         };
     };
 
-    var result = _overload(_create([Array], _create), _create([Function], _overload));
-    result.FnError = FnError;
-    return result;
+    var fn = _overload(_create([Array], _create), _create([Function], _overload));
+    fn.FnError = FnError;
+    return fn;
 
 });
